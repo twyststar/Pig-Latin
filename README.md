@@ -18,9 +18,30 @@ _This is a page designed to take text input by the user and convert it to pig la
 _None_
 
 ## Specs
-
-
-
+_Recognize a not a letter_
+* _Input = 7_
+* _Output = 7_
+_Recognize a single vowel_
+* _Input = a_
+* _Output = aay_
+_Recognize word beginning with vowel_
+* _Input = apple_
+* _Output = appleay_
+_Recognize words beginning with 'qu'_
+* _Input = quest_
+* _Output = estquay_
+_Recognize words beginning with 'squ'_
+* _Input = squeal_
+* _Output = ealsquay_
+_Recognize word beginning with two consecutive consonants_
+* _Input = this_
+* _Output = isthay_
+_Recognize word beginning with a single consonant_
+* _Input = hello_
+* _Output = ellohay_
+_Recognize regardless of upper case/lower case_
+* _Input = Apple_
+* _Output = Appeay_
 
 ## Technologies Used
 
