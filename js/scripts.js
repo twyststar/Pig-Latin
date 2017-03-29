@@ -4,7 +4,18 @@ var consonant = ["b","c","d","f","g","h","j","k","l","m","n","p","r","s","t","v"
 
 var pigLatin = function (wordParameter) {
   wordParameter.forEach(function(word){
-   word = word + "ay";
+    // var pattern = /^[0-9]/;
+    // var patternTest = word.match(pattern);
+    // console.log(patternTest);
+  if (word.match(/\D/))
+  {
+    word = word + "ay";
+    alert("number");
+  }
+  // else
+  // {
+  //
+  // }
    console.log(word);
 
   });
